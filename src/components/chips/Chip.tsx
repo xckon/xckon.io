@@ -62,7 +62,7 @@ const techImages: Record<Tech, string> = {
 
 const Chip: React.FC<ChipProps> = ({id, tech }) => {
   return (
-    <div className={`col-sm-1 tech-badge tech-${id}`}>
+    <div className={`col-sm-1 col-md-2 col-lg-1 tech-badge tech-${id}`}>
       <a title={tech}>
         <img src={techImages[tech]} alt={tech} />
       </a>
