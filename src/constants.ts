@@ -26,3 +26,5 @@ export enum Tech {
   'Svn' = 'SVN',
   'WordPress' = 'WordPress',
 }
+
+export const RESUME_URL = 'https://resume.io/r/UX7zp7chr';

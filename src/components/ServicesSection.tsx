@@ -3,7 +3,7 @@ import BlockainImage from '../styles/images/blockchain.png';
 import FarmImage from '../styles/images/farm.png';
 
 const ServicesSection = () => (
-  <section id="services">
+  <section id="hobbies">
     <div className="container">
       
       {/* <!-- section title --> */}
@@ -37,7 +37,7 @@ const ServicesSection = () => (
           <div className="service-box rounded data-background padding-30 text-center text-light shadow-pink" data-color="#F97B8B">
             <img src={FarmImage} alt="Gardener" />
             <h3 className="mb-3 mt-0">Gardener</h3>
-            <p className="mb-0">Love Gardening, experimenting with hidroponic vegetables and fruits. Serial Composter.</p>
+            <p className="mb-0">Love Gardening, experimenting with hidroponic vegetables & fruits. Serial Composter.</p>
           </div>
         </div>
 

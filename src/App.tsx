@@ -34,8 +34,8 @@ function App() {
           <ul className="vertical-menu scrollspy">
             <li className="active"><a href="#home"><i className="icon-home"></i></a></li>
             <li><a href="#about"><i className="icon-user-following"></i></a></li>
-            <li><a href="#services"><i className="icon-briefcase"></i></a></li>
-            <li><a href="#experience"><i className="icon-graduation"></i></a></li>
+            <li><a href="#hobbies"><i className="icon-bulb"></i></a></li>
+            <li><a href="#experience"><i className="icon-rocket"></i></a></li>
           </ul>
         </nav>
         

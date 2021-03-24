@@ -1,7 +1,8 @@
+import { RESUME_URL } from '../constants';
 import RealImage from '../styles/images/eze.png';
 
 const AboutSection = () => (
-  <section id="about" style={{paddingTop: 0}}>
+  <section id="about" className="pt-0">
     <div className="container">
       
       {/* <!-- section title --> */}
@@ -29,7 +30,7 @@ const AboutSection = () => (
                   I <i className="far fa-heart"></i> architecture, code and JavaScript. I'm a crypto enthusiast and hobbiest balcony/hidroponic gardener.
                 </p>
                 <div className="mt-3">
-                  <a href="https://resume.io/r/UX7zp7chr" target="_blank" className="btn btn-default">Download CV</a>
+                  <a href={RESUME_URL} target="_blank" className="btn btn-default">Download CV</a>
                 </div>
                 <div className="spacer d-md-none d-lg-none" data-height="30"></div>
               </div>

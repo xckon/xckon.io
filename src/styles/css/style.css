@@ -2463,7 +2463,11 @@ body {
 }
 
 #footer img {
-  max-width: 4rem;
+  max-width: 3rem;
+}
+
+#footer .footer-ipfs img {
+  max-width: 6rem;
 }
 
 .sub-title.sub-title--no-padding-bottom {
