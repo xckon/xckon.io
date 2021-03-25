@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles/css/bootstrap.min.css';
 import './styles/css/all.min.css';
 import './styles/css/simple-line-icons.css';
@@ -9,10 +8,10 @@ import './styles/css/style.css';
 
 import Preloader from './components/Preloader'
 import MobileHeader from './components/mobile/Header';
-import Timeline from './components/TimeLine';
 import HomeSection from './components/HomeSection';
 import ServicesSection from './components/ServicesSection';
 import AboutSection from './components/AboutSection';
+import StackSection from './components/StackSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -35,7 +34,7 @@ function App() {
             <li className="active"><a href="#home"><i className="icon-home"></i></a></li>
             <li><a href="#about"><i className="icon-user-following"></i></a></li>
             <li><a href="#hobbies"><i className="icon-bulb"></i></a></li>
-            <li><a href="#experience"><i className="icon-rocket"></i></a></li>
+            <li><a href="#stack"><i className="icon-rocket"></i></a></li>
           </ul>
         </nav>
         
@@ -56,8 +55,8 @@ function App() {
         {/* <!-- section services --> */}
         <ServicesSection />
         
-        {/* <!-- section experience --> */}
-        <Timeline />
+        {/* <!-- section stack --> */}
+        <StackSection />
 
         <Footer />
         
